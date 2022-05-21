@@ -1,0 +1,15 @@
+.colorful, 
+.dead{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+}
+
+.colorful{
+    background-color: yellow;
+    color: black:
+}
+
+.dead{
+    background-color: black;
+    color: white;
+}
