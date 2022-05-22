@@ -4,7 +4,7 @@
 }
 
 .avatar.proportioned{
-    height:auto ;
+    height:auto ; /*The auto height feature keeps the porportions of the image intact.  */
     width: 300px
 
 }
