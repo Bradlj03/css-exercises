@@ -6,3 +6,8 @@ body div p{
 
 
 }
+
+/*In this excercise I had to change the color of
+the paragraph and nothing else. To accomplish this we had to use the 
+decendants concept. To accomplish this I went down the order to the parent
+body->div->p */
