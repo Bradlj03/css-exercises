@@ -1,27 +1,42 @@
 body {
   background: #eee;
   font-family: sans-serif;
+
+ 
 }
 
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px; /*adding the padding created the border needed, by shifting the contents inside.*/
+  
+  
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  padding: 8px;
+ 
 }
 
 .content {
   background: #e3f4ff;
+  padding: 8px;
 }
 
 .button-container {
+  text-align: center;
+  margin-top: 8px;
   background: #e3f4ff;
+  padding: 8px;
 }
 
 button {
+  display: block;
+  margin: 0 auto; /* margin moved this element beause it was an in line element. Padding or alignment did not move this button.*/
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
 }
