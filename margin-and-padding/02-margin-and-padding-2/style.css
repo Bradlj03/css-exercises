@@ -34,7 +34,7 @@ body {
 }
 
 button {
-  display: block;
+  display: block; /*The button was normally defulted to a block element, by changing it to a inline element I was able to have the button moved down to the next line.*/
   margin: 0 auto; /* margin moved this element beause it was an in line element. Padding or alignment did not move this button.*/
   background: white;
   border: 1px solid #eee;
